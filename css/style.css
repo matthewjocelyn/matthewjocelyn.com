@@ -36,7 +36,7 @@ a, a:link, a:visited {
 a:hover, a:active {
 	text-decoration:none;
 	color:#ffffff;
-	background-color:#000524;
+	background-color:#7684FF;
 	transition:  all 0.1s ease;
 	-webkit-transition: all 0.1s ease;
 	-moz-transition: all 0.1s ease;
@@ -51,6 +51,7 @@ html, body {
     padding: 0;
     font-family: helvetica, arial, sans-serif;
     text-align: center;
+    background-color: #000524;
 }
 
 hr {
