@@ -28,16 +28,15 @@
 /* Elements */
 
 a, a:link, a:visited {
-	text-decoration:underline;
-	text-decoration-color:#dddddd;
-	color:#000000;
-	background-color:#ffffff;
+	text-decoration:none;
+	color:#ffffff;
+	padding: 16px;
 }
 
 a:hover, a:active {
 	text-decoration:none;
 	color:#ffffff;
-	background-color:#096DFF;
+	background-color:#7684FF;
 	transition:  all 0.1s ease;
 	-webkit-transition: all 0.1s ease;
 	-moz-transition: all 0.1s ease;
@@ -55,32 +54,15 @@ html, body {
 }
 
 hr {
-    color:#dddddd;
+    color:#ffffff;
     display: block;
-  	margin-top: 64px;
-  	margin-bottom: 64px;
-  	margin-left: auto;
-  	margin-right: auto;
   	border-style: solid;
   	border-width: 1px;
 }
 
-@media only screen and (min-width:768px) and (max-width:1024px) {
-	hr {
-  	margin-top: 48px;
-  	margin-bottom: 48px;
-	}
-}
-
-@media only screen and (max-width:767px) {
-	hr {
-  	margin-top: 40px;
-  	margin-bottom: 40px;
-	}
-}
-
-h2 {
+p {
 	font-size:40px;
+	margin: 24px;
 	padding: 16px;
 	color:#000000;
 	transition:  all 0.1s ease;
@@ -89,52 +71,22 @@ h2 {
 	-o-transition: all 0.1s ease;
 }
 
-@media only screen and (min-width:768px) and (max-width:1024px) {
-	h2 {
-		font-size:40px;
-		padding: 8px;
-	}
-}
-
-@media only screen and (max-width:767px) {
-	h2 {
-		font-size:32px;
-		padding: 8px;
-	}
-}
-
-/* SVGs */
 
 #logo {
-	width: 128px;
-	height: 128px;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
+	width:48px;
+	height:48px;
+	display: block;
+	margin: auto;
+	transition:  all 0.1s ease;
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-	#logo {
-		width: 80px;
-		height: 80px;
-	}
-}
-
-@media only screen and (max-width: 767px) {
-	#logo {
-		width: 64px;
-		height: 64px;
-	}
-}
-
-/* IDs */
 
 #wrapper {
 	margin: auto;
-	padding-left:256px;
-	padding-right:256px;
-	padding-top: 64px;
-	padding-bottom: 64px;
+	padding:128px;
 	width: 100%;
 	height: 100%;
 	overflow: auto;
@@ -145,19 +97,13 @@ h2 {
 
 @media only screen and (min-width:768px) and (max-width:1024px) {
 	#wrapper {
-		padding-left:256px;
-		padding-right:256px;
-		padding-top: 48px;
-		padding-bottom: 48px;
+		padding:128px;
 	}
 }
 
 @media only screen and (max-width:767px) {
 	#wrapper {
-		padding-left:80px;
-		padding-right:80px;
-		padding-top: 24px;
-		padding-bottom: 24px;
+		padding:64px;
 	}
 }
 
