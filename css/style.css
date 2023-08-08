@@ -36,7 +36,7 @@ a, a:link, a:visited {
 a:hover, a:active {
 	text-decoration:none;
 	color:#ffffff;
-	background-color:#7684FF;
+	background-color:#000524;
 	transition:  all 0.1s ease;
 	-webkit-transition: all 0.1s ease;
 	-moz-transition: all 0.1s ease;
