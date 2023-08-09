@@ -33,9 +33,7 @@ a, a:link, a:visited {
 }
 
 a:hover, a:active {
-	text-decoration:none;
-	color:#ffffff;
-	background-color:#7684FF;
+	text-decoration:underline;
 	transition:  all 0.1s ease;
 	-webkit-transition: all 0.1s ease;
 	-moz-transition: all 0.1s ease;
@@ -63,9 +61,7 @@ hr {
 p {
 	font-size:40px;
 	font-weight: lighter;
-	margin: 16px;
-	padding: 16px;
-	color:#000000;
+	color:#ffffff;
 	transition:  all 0.1s ease;
 	-webkit-transition: all 0.1s ease;
 	-moz-transition: all 0.1s ease;
