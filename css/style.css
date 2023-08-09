@@ -30,10 +30,12 @@
 a, a:link, a:visited {
 	text-decoration:none;
 	color:#ffffff;
+	padding: 16px;
 }
 
 a:hover, a:active {
-	text-decoration:underline;
+	text-decoration:none;
+	background-color: #7684FF;
 	transition:  all 0.1s ease;
 	-webkit-transition: all 0.1s ease;
 	-moz-transition: all 0.1s ease;
@@ -51,17 +53,11 @@ html, body {
     background-color: #000524;
 }
 
-hr {
-    color:#ffffff;
-    display: block;
-  	border-style: solid;
-  	border-width: 1px;
-}
 
 p {
 	font-size:40px;
 	font-weight: lighter;
-	margin: 8px;
+	margin: 24px;
 	color:#ffffff;
 	transition:  all 0.1s ease;
 	-webkit-transition: all 0.1s ease;
