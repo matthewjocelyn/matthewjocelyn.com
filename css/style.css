@@ -33,14 +33,17 @@ a, a:link, a:visited {
 	padding: 16px;
 }
 
-a:hover, a:active {
+a:hover {
 	text-decoration:none;
 	color:#ffffff;
-	background-color: #000524;
-	transition:  all 0.1s ease;
-	-webkit-transition: all 0.1s ease;
-	-moz-transition: all 0.1s ease;
-	-o-transition: all 0.1s ease;
+	background-color:#000524;
+}
+
+
+a:active {
+	text-decoration:none;
+	color:#ffffff;
+	background-color:#D868FF;
 }
 
 
@@ -59,10 +62,6 @@ p {
 	font-weight: lighter;
 	margin-bottom: 32px;
 	color:#000524;
-	transition:  all 0.1s ease;
-	-webkit-transition: all 0.1s ease;
-	-moz-transition: all 0.1s ease;
-	-o-transition: all 0.1s ease;
 }
 
 
@@ -71,10 +70,6 @@ p {
 	height:48px;
 	display: block;
 	margin: auto;
-	transition:  all 0.1s ease;
-	-webkit-transition: all 0.1s ease;
-	-moz-transition: all 0.1s ease;
-	-o-transition: all 0.1s ease;
 }
 
 
@@ -84,21 +79,5 @@ p {
 	width: 100%;
 	height: 100%;
 	overflow: auto;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
 }
-
-@media only screen and (min-width:768px) and (max-width:1024px) {
-	#wrapper {
-		padding:128px;
-	}
-}
-
-@media only screen and (max-width:767px) {
-	#wrapper {
-		padding:64px;
-	}
-}
-
 
