@@ -61,6 +61,7 @@ hr {
 p {
 	font-size:40px;
 	font-weight: lighter;
+	margin: 8px;
 	color:#ffffff;
 	transition:  all 0.1s ease;
 	-webkit-transition: all 0.1s ease;
