@@ -10,19 +10,19 @@
 
 ::-webkit-scrollbar { 
     display: none;
-    width: 0px;
-    background: transparent;
+    width:0px;
+    background:transparent;
 }
 
 /* Clear Fix Hack */
 
 .clearfix:after {
 	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
+	display:block;
+	clear:both;
+	visibility:hidden;
+	line-height:0px;
+	height:0px;
 }
 
 /* Elements */
@@ -30,60 +30,78 @@
 a, a:link, a:visited {
 	text-decoration:none;
 	color:#000524;
-	padding: 16px;
+	padding:16px;
 }
 
 a:hover {
-	text-decoration:none;
-	color:#ffffff;
-	background-color:#000524;
+	text-decoration:underline;
+	text-underline-offset:16px;
+	text-decoration-color:#cccccc;
 }
-
 
 a:active {
-	text-decoration:none;
-	color:#ffffff;
-	background-color:#000138;
+	text-decoration:underline;
+	text-underline-offset:16px;
+	text-decoration-color:#000524;
 }
 
-
 html, body {
-    min-width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    min-width:100%;
+    min-height:100%;
+    margin:0px;
+    padding:0px;
     font-family: helvetica, arial, sans-serif;
-    text-align: center;
+    text-align:center;
+    background-color:#fafafa;
+}
+
+h1 {
+	color:#000524;
+	margin:4.4vmax;
+	font-size:3vmax;
+	font-weight:800;
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size:3.6vmax;
+  }
 }
 
 
 p {
-	font-size:40px;
-	font-weight: lighter;
-	margin-bottom: 32px;
 	color:#000524;
+	margin:2vmax;
+	padding-bottom:16px;
+	font-size:2.2vmax;
+	font-weight:600;
 }
 
-
-#logo {
-	width:32px;
-	height:32px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: 32px;
+@media screen and (min-width: 800px) {
+  p {
+    font-size:1.8vmax;
+  }
 }
 
+#gif {
+	max-width:320px;
+	width:auto;
+	height:auto;
+	margin-bottom:4vmax;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
 
 #wrapper {
-	margin: auto;
-	padding-top:128px;
-	padding-left:40px;
-	padding-right:40px;
-	padding-bottom: 64px;
-	width: 100%;
-	height: 100%;
-	overflow: auto;
+	margin:auto;
+	padding-top:8vmax;
+	width:100%;
+	height:100%;
+	overflow:auto;
+}
+
+#spacer {
+	color:#cccccc;
 }
 
