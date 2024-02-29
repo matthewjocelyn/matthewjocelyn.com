@@ -34,15 +34,15 @@ a, a:link, a:visited {
 }
 
 a:hover {
-	text-decoration:underline;
-	text-underline-offset:16px;
-	text-decoration-color:#cccccc;
+	text-decoration:none;
+	color:#fafafa;
+	background-color:#000524;
 }
 
 a:active {
-	text-decoration:underline;
-	text-underline-offset:16px;
-	text-decoration-color:#000524;
+	text-decoration:none;
+	color:#cccccc;
+	background-color:#000524;
 }
 
 html, body {
@@ -55,32 +55,12 @@ html, body {
     background-color:#fafafa;
 }
 
-h1 {
-	color:#000524;
-	margin:4.4vmax;
-	font-size:3vmax;
-	font-weight:800;
-}
-
-@media screen and (min-width: 800px) {
-  h1 {
-    font-size:3.6vmax;
-  }
-}
-
-
 p {
 	color:#000524;
 	margin:2vmax;
 	padding-bottom:16px;
-	font-size:2.2vmax;
+	font-size:3vmax;
 	font-weight:600;
-}
-
-@media screen and (min-width: 800px) {
-  p {
-    font-size:1.8vmax;
-  }
 }
 
 #gif {
@@ -103,5 +83,6 @@ p {
 
 #spacer {
 	color:#cccccc;
+	font-weight:300;
 }
 
