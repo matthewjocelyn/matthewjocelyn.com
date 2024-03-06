@@ -57,13 +57,12 @@ html, body {
 
 p {
 	color:#000524;
-	padding:16px;
-	font-size:12px;
+	font-size:10px;
 }
 
 #wrapper {
 	margin:auto;
-	padding:40px;
+	padding:8vw;
 	width:100%;
 	height:100%;
 	overflow:auto;
