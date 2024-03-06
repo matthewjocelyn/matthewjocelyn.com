@@ -35,13 +35,13 @@ a, a:link, a:visited {
 
 a:hover {
 	text-decoration:none;
-	color:#fafafa;
+	color:#15F5BA;
 	background-color:#000524;
 }
 
 a:active {
 	text-decoration:none;
-	color:#cccccc;
+	color:#fafafa;
 	background-color:#000524;
 }
 
@@ -58,28 +58,28 @@ html, body {
 p {
 	color:#000524;
 	padding:16px;
-	font-size:24px;
+	font-size:12px;
+}
+
+#wrapper {
+	margin:auto;
+	padding:80px;
+	width:100%;
+	height:100%;
+	overflow:auto;
 }
 
 #gif {
 	max-width:320px;
 	width:auto;
 	height:auto;
-	margin-bottom:48px;
+	padding-bottom:16px;
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
 }
 
-#wrapper {
-	margin:auto;
-	padding-top:64px;
-	width:100%;
-	height:100%;
-	overflow:auto;
-}
-
-#spacer {
-	color:#cccccc;
+#logo {
+	padding-bottom:16px;
 }
 
