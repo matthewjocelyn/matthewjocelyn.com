@@ -29,7 +29,7 @@
 
 a, a:link, a:visited {
 	text-decoration:none;
-	color:#000524;
+	color:#15F5BA;
 	padding:16px;
 }
 
@@ -41,7 +41,7 @@ a:hover {
 
 a:active {
 	text-decoration:none;
-	color:#fafafa;
+	color:#15F5BA;
 	background-color:#000524;
 }
 
@@ -52,7 +52,7 @@ html, body {
     padding:0px;
     font-family: helvetica, arial, sans-serif;
     text-align:center;
-    background-color:#fafafa;
+    background-color:#ffffff;
 }
 
 p {
